@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/*
+ÞEMA
+
+UPPÁHALDS LITIR
+
+SÆGRÆNN: 00AD82;
+
+/* Global 
+-------------*/
+
+	@font-face
+	{
+	font-family: avenir;
+	src: url('includes/Avenir/book.ttf')
+	}
+
+	@font-face
+	{
+	font-family: gotham;
+	src: url('includes/gotham/Gotham-Book.ttf')
+	}
+
+
+	body, html {
+	  height: 100%;
+	  background-color: #f1f1f1;
+	}
+
+	body {
+		font-family:'Open Sans', "Century Gothic", avenir, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		margin: 0;
+		padding: 0;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	#site-wrap {
+		width: 990px;
+		height: auto;
+		margin: 0px auto;
+		position: relative;
+		top: 46px;
+		background-color: #fff;
+		z-index: 1;
+	}
+
+/*
+Elements
+_____________*/
+
+h1 {
+	font-size: 2em;
+	margin: 10px 0px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 14px 0px;
+}
+
+h3 {
+	font-size: 1.1em;
+	color: #999;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*
+article.php
+_____________*/
+
+	#menu {
+		width: 990px;
+		height: 65px;
+		background-color: #fff;
+		border-bottom: 1px solid #ccc;
+		position: relative;
+		top: 46px;
+		margin: 0px auto;
+	}
+	#strakar {
+		width: 495px;
+		height: 65px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		text-align: center;
+	}
+
+	#stelpur {
+		width: 494px;
+		height: 65px;
+		position: absolute;
+		left: 495px;
+		top: 0;
+		text-align: center;
+		border-left: 1px solid #ccc;
+	}
+
+	#left-wrap {
+		padding: 20px;
+		width: 600px;
+		height: auto;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	#right-wrap {
+		padding: 20px;
+		width: 330px;
+		height: auto;
+		position: absolute;
+		left: 650px;
+		top: 0;
+	}
+
+	.ads {
+		width: 300px;
+		z-index: 10;
+	}
+
+	.cover {
+		width: 600px;
+		padding: 0px 0px 30px 0px;
+	}
+	.small-cover {
+		width: 300px;
+	}
+
+	#title {
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400; 
+		line-height:150%
+	}
+
+	#text {
+		text-align: justify;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400; 
+		line-height:150%
+	}
+
+	#author {
+		width: 600px;
+		height: auto;
+		min-height: 100px;
+		border-bottom: 3px solid #555;
+		border-top: 3px solid #555;
+		position: relative;
+		top: 20px;
+		padding: 20px 0px;
+	}
+
+	.author-pic {
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+		position: absolute;
+		left: 25px;
+	}
+
+	#info {
+		width: 450px;
+		position: relative;
+		top: 0px;
+		left: 150px;
+		text-align: left;
+		line-height:150%;
+		color: #333;
+	}
+
+	#top-feed {
+		width: 300px;
+		height: 360px;
+		border-bottom: 3px solid #555;
+		border-top: 3px solid #555;
+		display: block;
+		position: relative;
+		top: 30px;
+		text-align: left;
+		margin-bottom: 50px;
+	}
+
+	.top-list {
+		width: 300px;
+		height: 50px;
+		text-align: left;
+		position: relative;
+		left: 0px;
+		margin: 0; 
+	}
+
+	.bullet {
+		width: 30px;
+		height: 50px;
+		font-size: 1.8em;
+		background-color: #333;
+		color: #fff;
+		position: absolute;
+		left: -40px; 
+		margin-right: 20px;
+		text-align: center;
+		padding-top: 7px;
+	}
+
+	#more {
+		width: 990px;
+		height: auto;
+		min-height: 500px;
+		position: relative;
+		top: 10px;
+
+	}
+	#small1 {
+		width: 330px;
+		height: auto;
+		min-height: 200px;
+		position: absolute;
+		top: 80px;
+		left: 0px;
+		text-align: center;
+	}
+	#small2 {
+		width: 330px;
+		height: auto;
+		min-height: 200px;
+		position: absolute;
+		top: 80px;
+		left: 330px;
+		text-align: center;
+	}
+	#small3 {
+		width: 330px;
+		height: auto;
+		min-height: 200px;
+		position: absolute;
+		top: 80px;
+		left: 660px;
+		text-align: center;
+	}
+
+/* Header
+__________*/
+
+	#header {
+		width: 100%;
+		height: 46px;
+		border-bottom: 1px solid #ccc;
+		background-color: #fff;
+		position: fixed;
+		z-index: 5;
+	}
+
+	#logo {
+		display:block;
+		height:25px; 
+		margin: 11px auto;
+	}
+
+
+/* Misc
+_________*/
+
+	.seperator {
+		width: 100%;
+		border-bottom: 2px solid #555;
+		padding: 5px 0px;
+	}
+

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+ÞEMA
+
+UPPÁHALDS LITIR
+
+SÆGRÆNN: 00AD82;
+
+/* Global */
+
+@font-face
+{
+font-family: avenir;
+src: url('includes/Avenir/book.ttf')
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+	font-family: "Century Gothic", avenir, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
